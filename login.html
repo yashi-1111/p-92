@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html style="background-color: rgb(219, 181, 159); font-family:'EB Garamond', serif;">    <head>
+        <title> The Math Quiz Game! </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"> </script>       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    </head>
+    <center>
+    <body class="body_background">
+        <h2 style="font-size: 40px; text-decoration: underline;"> The Math Quiz Game!!</h2>
+        <div id="div1" class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+            <h3 id="id"> Player 1 login for the game</h1>
+            <label id="label"> Username: </label>
+            <input type="text" id="player1_name" class="form-control" placeholder="Player 1's name">
+            </div>
+        <br>
+        <div id="div2" class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+            <h3> Player 2 login for the game</h1>            
+            <label class="label"> Username: </label>            
+            <input type="text" id="player2_name" class="form-control" placeholder="Player 2's name">
+        </div>
+        <br>
+        <button id="login" onclick="addUser();"> Login </button>
+    </body>
+    </center>
+</html>
